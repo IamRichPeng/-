@@ -38,13 +38,10 @@ public class Post {
     public Post(){
     }
 
-    public Post(Long id, String title, String description, String content, LocalDateTime createDateTime, LocalDateTime updateDateTime) {
-        this.id = id;
+    public Post( String title, String description, String content) {
         this.title = title;
         this.description = description;
         this.content = content;
-        this.createDateTime = createDateTime;
-        this.updateDateTime = updateDateTime;
     }
 
     @Override
